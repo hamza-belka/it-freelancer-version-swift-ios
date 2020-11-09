@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>3572346742-sjkkd6kbdgvppss0gk0koane1kv6n2ig.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.3572346742-sjkkd6kbdgvppss0gk0koane1kv6n2ig</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBaWz7iSJ3jh491IgMgz311jm60JD_ZQxA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>3572346742</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.miniProject.MiniProjectFreelancer</string>
+	<key>PROJECT_ID</key>
+	<string>freelanceappios2020</string>
+	<key>STORAGE_BUCKET</key>
+	<string>freelanceappios2020.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:3572346742:ios:c1c692b673123b9e12d457</string>
+	<key>DATABASE_URL</key>
+	<string>https://freelanceappios2020.firebaseio.com</string>
+</dict>
+</plist>

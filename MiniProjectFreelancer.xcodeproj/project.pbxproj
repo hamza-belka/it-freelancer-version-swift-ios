@@ -1,0 +1,860 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		540CC3EE23CA339D00BCA42E /* Newmessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540CC3ED23CA339D00BCA42E /* Newmessage.swift */; };
+		541685C123C924E40034393F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 541685C023C924E40034393F /* GoogleService-Info.plist */; };
+		541685C423C9414C0034393F /* Messagescontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541685C323C9414C0034393F /* Messagescontroller.swift */; };
+		541685C623C943100034393F /* Inbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541685C523C943100034393F /* Inbox.swift */; };
+		541685C823C9431F0034393F /* Sentmessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541685C723C9431F0034393F /* Sentmessages.swift */; };
+		541685CA23C948D50034393F /* Messagedetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541685C923C948D50034393F /* Messagedetails.swift */; };
+		5419BE5923AA940E00E8BE8E /* AcceuilListjob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5419BE5823AA940E00E8BE8E /* AcceuilListjob.swift */; };
+		5419BE5B23AAC7DF00E8BE8E /* Savedjob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5419BE5A23AAC7DF00E8BE8E /* Savedjob.swift */; };
+		542A5DFA239B4778007C52BC /* ProfileFreelancer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542A5DF9239B4778007C52BC /* ProfileFreelancer.swift */; };
+		54A4161F23887F480036D14E /* PostJobs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A4161E23887F480036D14E /* PostJobs.swift */; };
+		54A68EAE2388B22C00FE9226 /* Listjobs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A68EAD2388B22C00FE9226 /* Listjobs.swift */; };
+		54A68EB12388B5D400FE9226 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A68EB02388B5D400FE9226 /* Job.swift */; };
+		54A6F3F52391F0EB005D8138 /* Regeducation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A6F3F42391F0EB005D8138 /* Regeducation.swift */; };
+		54BB5A90239953F900FC246F /* RegExperience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BB5A8F239953F900FC246F /* RegExperience.swift */; };
+		54C4311D238710DB008B5348 /* DashboardEmployer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C4311C238710DB008B5348 /* DashboardEmployer.swift */; };
+		54C8E0BD23B2D3490008DF49 /* ProfileEmployer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C8E0BC23B2D3490008DF49 /* ProfileEmployer.swift */; };
+		54C8E0BF23B2FC0F0008DF49 /* MyJobList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C8E0BE23B2FC0F0008DF49 /* MyJobList.swift */; };
+		54C961212386D52E00A9887B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C961202386D52E00A9887B /* AppDelegate.swift */; };
+		54C961232386D52E00A9887B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C961222386D52E00A9887B /* ViewController.swift */; };
+		54C961262386D52E00A9887B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54C961242386D52E00A9887B /* Main.storyboard */; };
+		54C961292386D52E00A9887B /* MiniProjectFreelancer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 54C961272386D52E00A9887B /* MiniProjectFreelancer.xcdatamodeld */; };
+		54C9612B2386D52F00A9887B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54C9612A2386D52F00A9887B /* Assets.xcassets */; };
+		54C9612E2386D52F00A9887B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54C9612C2386D52F00A9887B /* LaunchScreen.storyboard */; };
+		54C961392386D52F00A9887B /* MiniProjectFreelancerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C961382386D52F00A9887B /* MiniProjectFreelancerTests.swift */; };
+		54C961442386D52F00A9887B /* MiniProjectFreelancerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C961432386D52F00A9887B /* MiniProjectFreelancerUITests.swift */; };
+		54C961522386EA3F00A9887B /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C961512386EA3F00A9887B /* Register.swift */; };
+		54C961542386EB9000A9887B /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C961532386EB9000A9887B /* Login.swift */; };
+		54C961562386EBB100A9887B /* DashbordFreelancer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C961552386EBB100A9887B /* DashbordFreelancer.swift */; };
+		54ED53B023957584007AAED0 /* Imagepickupload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED53AF23957584007AAED0 /* Imagepickupload.swift */; };
+		54ED53B2239577E6007AAED0 /* nscarddesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ED53B1239577E6007AAED0 /* nscarddesign.swift */; };
+		54FAD8C723B1B79600198215 /* Listfreelance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FAD8C623B1B79600198215 /* Listfreelance.swift */; };
+		54FAD8C923B1B8B200198215 /* AccuielListfreelancer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FAD8C823B1B8B200198215 /* AccuielListfreelancer.swift */; };
+		54FAD8CB23B1CB3000198215 /* Savedfreelancers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FAD8CA23B1CB3000198215 /* Savedfreelancers.swift */; };
+		54FBF8B123C7CB2D0030F87C /* Myapplications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FBF8B023C7CB2D0030F87C /* Myapplications.swift */; };
+		54FBF8B323C803960030F87C /* Currentjobs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FBF8B223C803960030F87C /* Currentjobs.swift */; };
+		54FBF8B523C805C10030F87C /* AppliedJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FBF8B423C805C10030F87C /* AppliedJob.swift */; };
+		54FBF8B723C81D630030F87C /* Freelancerdetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FBF8B623C81D630030F87C /* Freelancerdetails.swift */; };
+		59BF19D7A79B360D278C0C05 /* Pods_MiniProjectFreelancer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1662DEC9343B77C7DB867808 /* Pods_MiniProjectFreelancer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54C961352386D52F00A9887B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54C961152386D52E00A9887B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54C9611C2386D52E00A9887B;
+			remoteInfo = MiniProjectFreelancer;
+		};
+		54C961402386D52F00A9887B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54C961152386D52E00A9887B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54C9611C2386D52E00A9887B;
+			remoteInfo = MiniProjectFreelancer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1662DEC9343B77C7DB867808 /* Pods_MiniProjectFreelancer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiniProjectFreelancer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ACC2D7C865B76988417E9AC /* Pods-MiniProjectFreelancer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniProjectFreelancer.debug.xcconfig"; path = "Target Support Files/Pods-MiniProjectFreelancer/Pods-MiniProjectFreelancer.debug.xcconfig"; sourceTree = "<group>"; };
+		42DABE5804112DD93BE69924 /* Pods-MiniProjectFreelancer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniProjectFreelancer.release.xcconfig"; path = "Target Support Files/Pods-MiniProjectFreelancer/Pods-MiniProjectFreelancer.release.xcconfig"; sourceTree = "<group>"; };
+		540CC3ED23CA339D00BCA42E /* Newmessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Newmessage.swift; sourceTree = "<group>"; };
+		541685BF23C921B10034393F /* MiniProjectFreelancer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MiniProjectFreelancer.entitlements; sourceTree = "<group>"; };
+		541685C023C924E40034393F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		541685C323C9414C0034393F /* Messagescontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messagescontroller.swift; sourceTree = "<group>"; };
+		541685C523C943100034393F /* Inbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inbox.swift; sourceTree = "<group>"; };
+		541685C723C9431F0034393F /* Sentmessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sentmessages.swift; sourceTree = "<group>"; };
+		541685C923C948D50034393F /* Messagedetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messagedetails.swift; sourceTree = "<group>"; };
+		5419BE5823AA940E00E8BE8E /* AcceuilListjob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceuilListjob.swift; sourceTree = "<group>"; };
+		5419BE5A23AAC7DF00E8BE8E /* Savedjob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Savedjob.swift; sourceTree = "<group>"; };
+		542A5DF9239B4778007C52BC /* ProfileFreelancer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileFreelancer.swift; sourceTree = "<group>"; };
+		54A4161E23887F480036D14E /* PostJobs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostJobs.swift; sourceTree = "<group>"; };
+		54A68EAD2388B22C00FE9226 /* Listjobs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listjobs.swift; sourceTree = "<group>"; };
+		54A68EB02388B5D400FE9226 /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
+		54A6F3F42391F0EB005D8138 /* Regeducation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regeducation.swift; sourceTree = "<group>"; };
+		54BB5A8F239953F900FC246F /* RegExperience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegExperience.swift; sourceTree = "<group>"; };
+		54C4311C238710DB008B5348 /* DashboardEmployer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardEmployer.swift; sourceTree = "<group>"; };
+		54C8E0BC23B2D3490008DF49 /* ProfileEmployer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEmployer.swift; sourceTree = "<group>"; };
+		54C8E0BE23B2FC0F0008DF49 /* MyJobList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyJobList.swift; sourceTree = "<group>"; };
+		54C9611D2386D52E00A9887B /* MiniProjectFreelancer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniProjectFreelancer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54C961202386D52E00A9887B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54C961222386D52E00A9887B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		54C961252386D52E00A9887B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54C961282386D52E00A9887B /* MiniProjectFreelancer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MiniProjectFreelancer.xcdatamodel; sourceTree = "<group>"; };
+		54C9612A2386D52F00A9887B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54C9612D2386D52F00A9887B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54C9612F2386D52F00A9887B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54C961342386D52F00A9887B /* MiniProjectFreelancerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniProjectFreelancerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54C961382386D52F00A9887B /* MiniProjectFreelancerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniProjectFreelancerTests.swift; sourceTree = "<group>"; };
+		54C9613A2386D52F00A9887B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54C9613F2386D52F00A9887B /* MiniProjectFreelancerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniProjectFreelancerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54C961432386D52F00A9887B /* MiniProjectFreelancerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniProjectFreelancerUITests.swift; sourceTree = "<group>"; };
+		54C961452386D52F00A9887B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54C961512386EA3F00A9887B /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		54C961532386EB9000A9887B /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		54C961552386EBB100A9887B /* DashbordFreelancer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashbordFreelancer.swift; sourceTree = "<group>"; };
+		54ED53AF23957584007AAED0 /* Imagepickupload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Imagepickupload.swift; sourceTree = "<group>"; };
+		54ED53B1239577E6007AAED0 /* nscarddesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nscarddesign.swift; sourceTree = "<group>"; };
+		54FAD8C623B1B79600198215 /* Listfreelance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listfreelance.swift; sourceTree = "<group>"; };
+		54FAD8C823B1B8B200198215 /* AccuielListfreelancer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccuielListfreelancer.swift; sourceTree = "<group>"; };
+		54FAD8CA23B1CB3000198215 /* Savedfreelancers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Savedfreelancers.swift; sourceTree = "<group>"; };
+		54FBF8B023C7CB2D0030F87C /* Myapplications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Myapplications.swift; sourceTree = "<group>"; };
+		54FBF8B223C803960030F87C /* Currentjobs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currentjobs.swift; sourceTree = "<group>"; };
+		54FBF8B423C805C10030F87C /* AppliedJob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppliedJob.swift; sourceTree = "<group>"; };
+		54FBF8B623C81D630030F87C /* Freelancerdetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Freelancerdetails.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54C9611A2386D52E00A9887B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59BF19D7A79B360D278C0C05 /* Pods_MiniProjectFreelancer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C961312386D52F00A9887B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C9613C2386D52F00A9887B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E5883B4CE3BDF04243A392C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1662DEC9343B77C7DB867808 /* Pods_MiniProjectFreelancer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		541685C223C941230034393F /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				541685C323C9414C0034393F /* Messagescontroller.swift */,
+				541685C523C943100034393F /* Inbox.swift */,
+				541685C723C9431F0034393F /* Sentmessages.swift */,
+				541685C923C948D50034393F /* Messagedetails.swift */,
+				540CC3ED23CA339D00BCA42E /* Newmessage.swift */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		54A68EAF2388B57700FE9226 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				54A68EB02388B5D400FE9226 /* Job.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		54A6F3F32391F0A2005D8138 /* Profilesetup */ = {
+			isa = PBXGroup;
+			children = (
+				54A6F3F42391F0EB005D8138 /* Regeducation.swift */,
+				54BB5A8F239953F900FC246F /* RegExperience.swift */,
+			);
+			path = Profilesetup;
+			sourceTree = "<group>";
+		};
+		54C4311E23873203008B5348 /* freelancer */ = {
+			isa = PBXGroup;
+			children = (
+				54A6F3F32391F0A2005D8138 /* Profilesetup */,
+				54C961552386EBB100A9887B /* DashbordFreelancer.swift */,
+				54A68EAD2388B22C00FE9226 /* Listjobs.swift */,
+				542A5DF9239B4778007C52BC /* ProfileFreelancer.swift */,
+				5419BE5823AA940E00E8BE8E /* AcceuilListjob.swift */,
+				5419BE5A23AAC7DF00E8BE8E /* Savedjob.swift */,
+				54FBF8B223C803960030F87C /* Currentjobs.swift */,
+				54FBF8B423C805C10030F87C /* AppliedJob.swift */,
+			);
+			path = freelancer;
+			sourceTree = "<group>";
+		};
+		54C4311F23873229008B5348 /* Employer */ = {
+			isa = PBXGroup;
+			children = (
+				54C4311C238710DB008B5348 /* DashboardEmployer.swift */,
+				54A4161E23887F480036D14E /* PostJobs.swift */,
+				54FAD8C623B1B79600198215 /* Listfreelance.swift */,
+				54FAD8C823B1B8B200198215 /* AccuielListfreelancer.swift */,
+				54FAD8CA23B1CB3000198215 /* Savedfreelancers.swift */,
+				54C8E0BC23B2D3490008DF49 /* ProfileEmployer.swift */,
+				54C8E0BE23B2FC0F0008DF49 /* MyJobList.swift */,
+				54FBF8B023C7CB2D0030F87C /* Myapplications.swift */,
+				54FBF8B623C81D630030F87C /* Freelancerdetails.swift */,
+			);
+			path = Employer;
+			sourceTree = "<group>";
+		};
+		54C4312023873254008B5348 /* lLoginRegister */ = {
+			isa = PBXGroup;
+			children = (
+				54C961532386EB9000A9887B /* Login.swift */,
+				54C961512386EA3F00A9887B /* Register.swift */,
+				54ED53AF23957584007AAED0 /* Imagepickupload.swift */,
+			);
+			path = lLoginRegister;
+			sourceTree = "<group>";
+		};
+		54C961142386D52E00A9887B = {
+			isa = PBXGroup;
+			children = (
+				54C9611F2386D52E00A9887B /* MiniProjectFreelancer */,
+				54C961372386D52F00A9887B /* MiniProjectFreelancerTests */,
+				54C961422386D52F00A9887B /* MiniProjectFreelancerUITests */,
+				54C9611E2386D52E00A9887B /* Products */,
+				C33D85E67AEEB490AC68E7F4 /* Pods */,
+				3E5883B4CE3BDF04243A392C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		54C9611E2386D52E00A9887B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54C9611D2386D52E00A9887B /* MiniProjectFreelancer.app */,
+				54C961342386D52F00A9887B /* MiniProjectFreelancerTests.xctest */,
+				54C9613F2386D52F00A9887B /* MiniProjectFreelancerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54C9611F2386D52E00A9887B /* MiniProjectFreelancer */ = {
+			isa = PBXGroup;
+			children = (
+				541685C223C941230034393F /* Messages */,
+				541685C023C924E40034393F /* GoogleService-Info.plist */,
+				541685BF23C921B10034393F /* MiniProjectFreelancer.entitlements */,
+				54A68EAF2388B57700FE9226 /* Models */,
+				54C4312023873254008B5348 /* lLoginRegister */,
+				54C4311F23873229008B5348 /* Employer */,
+				54C4311E23873203008B5348 /* freelancer */,
+				54C961242386D52E00A9887B /* Main.storyboard */,
+				54C9612A2386D52F00A9887B /* Assets.xcassets */,
+				54C9612C2386D52F00A9887B /* LaunchScreen.storyboard */,
+				54C9612F2386D52F00A9887B /* Info.plist */,
+				54C961272386D52E00A9887B /* MiniProjectFreelancer.xcdatamodeld */,
+				54C961222386D52E00A9887B /* ViewController.swift */,
+				54C961202386D52E00A9887B /* AppDelegate.swift */,
+				54ED53B1239577E6007AAED0 /* nscarddesign.swift */,
+			);
+			path = MiniProjectFreelancer;
+			sourceTree = "<group>";
+		};
+		54C961372386D52F00A9887B /* MiniProjectFreelancerTests */ = {
+			isa = PBXGroup;
+			children = (
+				54C961382386D52F00A9887B /* MiniProjectFreelancerTests.swift */,
+				54C9613A2386D52F00A9887B /* Info.plist */,
+			);
+			path = MiniProjectFreelancerTests;
+			sourceTree = "<group>";
+		};
+		54C961422386D52F00A9887B /* MiniProjectFreelancerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				54C961432386D52F00A9887B /* MiniProjectFreelancerUITests.swift */,
+				54C961452386D52F00A9887B /* Info.plist */,
+			);
+			path = MiniProjectFreelancerUITests;
+			sourceTree = "<group>";
+		};
+		C33D85E67AEEB490AC68E7F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3ACC2D7C865B76988417E9AC /* Pods-MiniProjectFreelancer.debug.xcconfig */,
+				42DABE5804112DD93BE69924 /* Pods-MiniProjectFreelancer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54C9611C2386D52E00A9887B /* MiniProjectFreelancer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54C961482386D52F00A9887B /* Build configuration list for PBXNativeTarget "MiniProjectFreelancer" */;
+			buildPhases = (
+				6E0145261084CAF0240D51A3 /* [CP] Check Pods Manifest.lock */,
+				54C961192386D52E00A9887B /* Sources */,
+				54C9611A2386D52E00A9887B /* Frameworks */,
+				54C9611B2386D52E00A9887B /* Resources */,
+				3F551C2EAEC7E1F369890982 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiniProjectFreelancer;
+			productName = MiniProjectFreelancer;
+			productReference = 54C9611D2386D52E00A9887B /* MiniProjectFreelancer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54C961332386D52F00A9887B /* MiniProjectFreelancerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54C9614B2386D52F00A9887B /* Build configuration list for PBXNativeTarget "MiniProjectFreelancerTests" */;
+			buildPhases = (
+				54C961302386D52F00A9887B /* Sources */,
+				54C961312386D52F00A9887B /* Frameworks */,
+				54C961322386D52F00A9887B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54C961362386D52F00A9887B /* PBXTargetDependency */,
+			);
+			name = MiniProjectFreelancerTests;
+			productName = MiniProjectFreelancerTests;
+			productReference = 54C961342386D52F00A9887B /* MiniProjectFreelancerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54C9613E2386D52F00A9887B /* MiniProjectFreelancerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54C9614E2386D52F00A9887B /* Build configuration list for PBXNativeTarget "MiniProjectFreelancerUITests" */;
+			buildPhases = (
+				54C9613B2386D52F00A9887B /* Sources */,
+				54C9613C2386D52F00A9887B /* Frameworks */,
+				54C9613D2386D52F00A9887B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54C961412386D52F00A9887B /* PBXTargetDependency */,
+			);
+			name = MiniProjectFreelancerUITests;
+			productName = MiniProjectFreelancerUITests;
+			productReference = 54C9613F2386D52F00A9887B /* MiniProjectFreelancerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54C961152386D52E00A9887B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = 4SIM4;
+				TargetAttributes = {
+					54C9611C2386D52E00A9887B = {
+						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					54C961332386D52F00A9887B = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 54C9611C2386D52E00A9887B;
+					};
+					54C9613E2386D52F00A9887B = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 54C9611C2386D52E00A9887B;
+					};
+				};
+			};
+			buildConfigurationList = 54C961182386D52E00A9887B /* Build configuration list for PBXProject "MiniProjectFreelancer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54C961142386D52E00A9887B;
+			productRefGroup = 54C9611E2386D52E00A9887B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54C9611C2386D52E00A9887B /* MiniProjectFreelancer */,
+				54C961332386D52F00A9887B /* MiniProjectFreelancerTests */,
+				54C9613E2386D52F00A9887B /* MiniProjectFreelancerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54C9611B2386D52E00A9887B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54C9612E2386D52F00A9887B /* LaunchScreen.storyboard in Resources */,
+				541685C123C924E40034393F /* GoogleService-Info.plist in Resources */,
+				54C9612B2386D52F00A9887B /* Assets.xcassets in Resources */,
+				54C961262386D52E00A9887B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C961322386D52F00A9887B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C9613D2386D52F00A9887B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F551C2EAEC7E1F369890982 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MiniProjectFreelancer/Pods-MiniProjectFreelancer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MiniProjectFreelancer/Pods-MiniProjectFreelancer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E0145261084CAF0240D51A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MiniProjectFreelancer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54C961192386D52E00A9887B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54C961232386D52E00A9887B /* ViewController.swift in Sources */,
+				542A5DFA239B4778007C52BC /* ProfileFreelancer.swift in Sources */,
+				54C961562386EBB100A9887B /* DashbordFreelancer.swift in Sources */,
+				54FAD8C723B1B79600198215 /* Listfreelance.swift in Sources */,
+				541685CA23C948D50034393F /* Messagedetails.swift in Sources */,
+				54C961542386EB9000A9887B /* Login.swift in Sources */,
+				541685C823C9431F0034393F /* Sentmessages.swift in Sources */,
+				54C4311D238710DB008B5348 /* DashboardEmployer.swift in Sources */,
+				54C8E0BD23B2D3490008DF49 /* ProfileEmployer.swift in Sources */,
+				54C961292386D52E00A9887B /* MiniProjectFreelancer.xcdatamodeld in Sources */,
+				54ED53B2239577E6007AAED0 /* nscarddesign.swift in Sources */,
+				54C8E0BF23B2FC0F0008DF49 /* MyJobList.swift in Sources */,
+				541685C623C943100034393F /* Inbox.swift in Sources */,
+				54FAD8C923B1B8B200198215 /* AccuielListfreelancer.swift in Sources */,
+				54FBF8B523C805C10030F87C /* AppliedJob.swift in Sources */,
+				54BB5A90239953F900FC246F /* RegExperience.swift in Sources */,
+				5419BE5B23AAC7DF00E8BE8E /* Savedjob.swift in Sources */,
+				54FBF8B323C803960030F87C /* Currentjobs.swift in Sources */,
+				54A4161F23887F480036D14E /* PostJobs.swift in Sources */,
+				54A68EAE2388B22C00FE9226 /* Listjobs.swift in Sources */,
+				54FBF8B723C81D630030F87C /* Freelancerdetails.swift in Sources */,
+				54FBF8B123C7CB2D0030F87C /* Myapplications.swift in Sources */,
+				54ED53B023957584007AAED0 /* Imagepickupload.swift in Sources */,
+				54C961522386EA3F00A9887B /* Register.swift in Sources */,
+				540CC3EE23CA339D00BCA42E /* Newmessage.swift in Sources */,
+				5419BE5923AA940E00E8BE8E /* AcceuilListjob.swift in Sources */,
+				541685C423C9414C0034393F /* Messagescontroller.swift in Sources */,
+				54C961212386D52E00A9887B /* AppDelegate.swift in Sources */,
+				54A68EB12388B5D400FE9226 /* Job.swift in Sources */,
+				54FAD8CB23B1CB3000198215 /* Savedfreelancers.swift in Sources */,
+				54A6F3F52391F0EB005D8138 /* Regeducation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C961302386D52F00A9887B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54C961392386D52F00A9887B /* MiniProjectFreelancerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C9613B2386D52F00A9887B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54C961442386D52F00A9887B /* MiniProjectFreelancerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54C961362386D52F00A9887B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54C9611C2386D52E00A9887B /* MiniProjectFreelancer */;
+			targetProxy = 54C961352386D52F00A9887B /* PBXContainerItemProxy */;
+		};
+		54C961412386D52F00A9887B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54C9611C2386D52E00A9887B /* MiniProjectFreelancer */;
+			targetProxy = 54C961402386D52F00A9887B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54C961242386D52E00A9887B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54C961252386D52E00A9887B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54C9612C2386D52F00A9887B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54C9612D2386D52F00A9887B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54C961462386D52F00A9887B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54C961472386D52F00A9887B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54C961492386D52F00A9887B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ACC2D7C865B76988417E9AC /* Pods-MiniProjectFreelancer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MiniProjectFreelancer/MiniProjectFreelancer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G96V29LG5G;
+				INFOPLIST_FILE = MiniProjectFreelancer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.miniProject.MiniProjectFreelancer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54C9614A2386D52F00A9887B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42DABE5804112DD93BE69924 /* Pods-MiniProjectFreelancer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MiniProjectFreelancer/MiniProjectFreelancer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G96V29LG5G;
+				INFOPLIST_FILE = MiniProjectFreelancer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.miniProject.MiniProjectFreelancer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		54C9614C2386D52F00A9887B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MiniProjectFreelancerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.miniProject.MiniProjectFreelancerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniProjectFreelancer.app/MiniProjectFreelancer";
+			};
+			name = Debug;
+		};
+		54C9614D2386D52F00A9887B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MiniProjectFreelancerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.miniProject.MiniProjectFreelancerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniProjectFreelancer.app/MiniProjectFreelancer";
+			};
+			name = Release;
+		};
+		54C9614F2386D52F00A9887B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MiniProjectFreelancerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.miniProject.MiniProjectFreelancerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MiniProjectFreelancer;
+			};
+			name = Debug;
+		};
+		54C961502386D52F00A9887B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MiniProjectFreelancerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.miniProject.MiniProjectFreelancerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MiniProjectFreelancer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54C961182386D52E00A9887B /* Build configuration list for PBXProject "MiniProjectFreelancer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C961462386D52F00A9887B /* Debug */,
+				54C961472386D52F00A9887B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54C961482386D52F00A9887B /* Build configuration list for PBXNativeTarget "MiniProjectFreelancer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C961492386D52F00A9887B /* Debug */,
+				54C9614A2386D52F00A9887B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54C9614B2386D52F00A9887B /* Build configuration list for PBXNativeTarget "MiniProjectFreelancerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C9614C2386D52F00A9887B /* Debug */,
+				54C9614D2386D52F00A9887B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54C9614E2386D52F00A9887B /* Build configuration list for PBXNativeTarget "MiniProjectFreelancerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C9614F2386D52F00A9887B /* Debug */,
+				54C961502386D52F00A9887B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		54C961272386D52E00A9887B /* MiniProjectFreelancer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				54C961282386D52E00A9887B /* MiniProjectFreelancer.xcdatamodel */,
+			);
+			currentVersion = 54C961282386D52E00A9887B /* MiniProjectFreelancer.xcdatamodel */;
+			path = MiniProjectFreelancer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 54C961152386D52E00A9887B /* Project object */;
+}
